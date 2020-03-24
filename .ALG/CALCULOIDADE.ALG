@@ -1,9 +1,11 @@
 Algoritmo "CalculoIdade"
 
 Var
+
    ano, nasc, idade : inteiro
 
 Inicio
+
       Escreva("Em que ano nós estamos? ")
       Leia(ano)
       Escreva("Em que ano você nasceu? ")
@@ -15,4 +17,5 @@ Inicio
       Senao
       Escreva(" e você ainda é menor de idade")
       Fimse
+      
 Fimalgoritmo

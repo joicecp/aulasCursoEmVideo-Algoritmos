@@ -1,9 +1,8 @@
 Algoritmo "ParOuImpar"
 
 Var
+
    N : inteiro
-
-
 
 Inicio
 

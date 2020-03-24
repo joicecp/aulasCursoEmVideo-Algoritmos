@@ -1,11 +1,11 @@
 Algoritmo "AptoADirigir"
 
 Var
+
    anoAtual, anoNasc, idade : inteiro
 
-
-
 Inicio
+
    EscrevaL("--------------------------")
    EscrevaL("DEPARTAMENTO DE TRÂNSITO")
    EscrevaL("--------------------------")
@@ -22,4 +22,5 @@ Inicio
    Senao
       EscrevaL("ATENÇÃO: Você não atingiu a maioridade, portanto, não tem autorização para dirigir!")
    FimSe
+   
 Fimalgoritmo

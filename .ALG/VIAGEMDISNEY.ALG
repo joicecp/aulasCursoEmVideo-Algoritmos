@@ -1,10 +1,12 @@
 Algoritmo "viagemDisney"
 
 Var
+
    dinheiroDisponivel, orcamentoMinimo : real
    resposta : caractere
 
 Inicio
+
       Escreva("Você gostaria de ir para a Disney? ")
       Leia(resposta)
       Escreva("Então...Quanto de dinheiro você tem disponível para viajar? R$")

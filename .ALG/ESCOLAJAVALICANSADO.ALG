@@ -1,10 +1,11 @@
 Algoritmo "EscolaJavaliCansado"
 
 Var
+
 primeiraNota, segundaNota, media : real
 
-
 Inicio
+
    EscrevaL("--------------------")
    EscrevaL("ESCOLA JAVALI CASADO")
    EscrevaL("--------------------")
@@ -18,4 +19,5 @@ Inicio
    senao
       EscrevaL("Ops, é uma pena, mas voê foi REPROVADO, pois sua média ", media:3:2, " está abaixo de 7.0")
    FimSe
+   
 Fimalgoritmo

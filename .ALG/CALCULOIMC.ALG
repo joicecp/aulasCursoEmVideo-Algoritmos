@@ -5,6 +5,7 @@ Var
    M, A, IMC : real
    
 Inicio
+
       Escreva("Qual seu peso? (kg)")
       Leia(M)
       Escreva("Qual sua altura? (m)")
@@ -16,4 +17,5 @@ Inicio
       Senao
          Escreva("Você não está no seu peso ideal!")
       FimSe
+      
 Fimalgoritmo

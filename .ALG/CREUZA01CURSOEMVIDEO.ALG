@@ -1,13 +1,13 @@
 Algoritmo "Creuza01CURSOEMVIDEO"
 
 Var
+
     ano_atual : Inteiro
     ano_nasc : Inteiro
     idade : Inteiro
     nome: caractere
     idade_gosto: inteiro
     
-
 Inicio
 
    Escreva("Em que ano nós estamos? ")

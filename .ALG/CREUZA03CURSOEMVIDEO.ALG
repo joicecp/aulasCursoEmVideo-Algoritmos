@@ -1,10 +1,11 @@
 Algoritmo "Creuza03"
 
 Var
+
 F, C :real
 
-
 Inicio
+
    Escreva("Qual a temperatura em Fº? ")
    Leia(F)
    C <- (F-32)/1.8
