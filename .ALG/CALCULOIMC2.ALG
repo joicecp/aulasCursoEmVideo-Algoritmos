@@ -15,5 +15,5 @@ Inicio
          EscrevaL("Parabéns, você está no seu peso ideal!")
       Senao
          Escreva("Você não está no seu peso ideal!")
-      FimSe
+      FimSe   //teste
 Fimalgoritmo
