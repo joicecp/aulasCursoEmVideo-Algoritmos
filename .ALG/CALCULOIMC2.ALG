@@ -32,9 +32,7 @@ Inicio
                              Se (IMC >=35) e (IMC < 40) entao
                                 EscrevaL("Fique atento, você está com obesidade severa.")
                              Senao
-                                  Se (IMC >= 40) entao
-                                     EscrevaL("!!!ATENÇÃO!!! Você está com obesidade mórbida.")
-                                  FimSe
+                                EscrevaL("!!!ATENÇÃO!!! Você está com obesidade mórbida.")
                              FimSe
                         FimSe
                    FimSe
