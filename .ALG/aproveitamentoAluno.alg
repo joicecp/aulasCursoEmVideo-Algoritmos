@@ -8,7 +8,7 @@ var
    nomeAluno, materia : caractere
    nota1, nota2, nota3, nota4, media : real
    legAprov : inteiro
-   
+
 
 inicio
 
@@ -25,7 +25,7 @@ inicio
       Leia(legAprov)
 
       Escolha legAprov
-      
+
               Caso 1
                    EscrevaL("")
                    EscrevaL("")
@@ -43,7 +43,7 @@ inicio
                    EscrevaL("")
 
       FimEscolha
-      
+
       EscrevaL("")
       EscrevaL("Informe a matéria: ")
       Leia(materia)
@@ -65,28 +65,33 @@ inicio
       Leia(nota4)
       EscrevaL("")
       media <- (nota1 + nota2 + nota3 + nota4) / 4
-      
-      Escolha media
-      
-              Caso 10 entre 9.99
-                   EscrevaL("")
-                   EscrevaL("Sua média na matéria: ", materia, " é de: ", media, " e seu aproveitamento é A")
-              Caso 8.99 entre 7.99
-                   EscrevaL("")
-                   EscrevaL("Sua média na matéria: ", materia, " é de: ", media, " e seu aproveitamento é B")
-              Caso 6.99 entre 5.99
-                   EscrevaL("")
-                   EscrevaL("Sua média na matéria: ", materia, " é de: ", media, " e seu aproveitamento é C")
-              Caso 4.99 entre 3.99
-                   EscrevaL("")
-                   EscrevaL("Sua média na matéria: ", materia, " é de: ", media, " e seu aproveitamento é D")
-              Caso 2.99 entre 1.99
-                   EscrevaL("")
-                   EscrevaL("Sua média na matéria: ", materia, " é de: ", media, " e seu aproveitamento é E")
-              Caso 0
-                   EscrevaL("")
-                   EscrevaL("Sua média na matéria: ", materia, " é de: ", media, " e seu aproveitamento é F")
 
-      FimEscolha
-      
-fimalgoritmo
+      Se(media <= 10) e (media >=9) entao
+               EscrevaL("")
+               EscrevaL("Sua média em ", materia, " é de:", media, " e seu aproveitamento é A")
+      Senao
+           Se (media <= 8) e (media >= 7) entao
+               EscrevaL("")
+               EscrevaL("Sua média em ", materia, " é de:", media, " e seu aproveitamento é B")
+			Senao
+				Se (media <= 6) e (media >= 5) entao
+				   EscrevaL("")
+                   EscrevaL("Sua média em ", materia, " é de:", media, " e seu aproveitamento é C")
+				Senao
+					Se (media <= 4) e (media >= 3 ) entao
+						EscrevaL("")
+						EscrevaL("Sua média em ", materia, " é de:", media, " e seu aproveitamento é D")
+					Senao
+						Se (media <= 2.99) e (media >= 1) entao
+							EscrevaL("")
+							EscrevaL("Sua média em ", materia, " é de:", media, " e seu aproveitamento é E")
+						Senao
+							EscrevaL("")
+							EscrevaL("Sua média em ", materia, " é de:", media, " e seu aproveitamento é F")							
+						FimSe
+					FimSe
+           FimSe
+         FimSe
+      FimSe
+
+ fimalgoritmo
