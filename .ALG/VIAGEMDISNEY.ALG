@@ -1,5 +1,8 @@
 Algoritmo "viagemDisney"
 
+// Função: Verificar disponibilidade financeira para ir a Disney
+// Autor: Joice CP
+// Data: 24/03/2020
 Var
 
    dinheiroDisponivel, orcamentoMinimo : real
@@ -18,5 +21,4 @@ Inicio
       Escreva("Poxa, é uma pena, mas o seu orçamento de", dinheiroDisponivel, " é menor que o valor mínimo para viajar e curtir a Disney")
       FimSe
       
-
 Fimalgoritmo

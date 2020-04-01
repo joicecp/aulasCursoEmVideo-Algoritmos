@@ -1,4 +1,5 @@
 algoritmo "partidaFutebol"
+
 // Função : Diferença de gols
 // Autor : Joice CP
 // Data : 25/03/2020

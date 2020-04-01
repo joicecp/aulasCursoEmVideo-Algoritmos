@@ -1,5 +1,9 @@
 Algoritmo "calculoIMC2"
 
+//Função: Calcular o IMC específico, utilizado a estrutura de seleção 'Se' dentro de 'Se'
+//Autor: Joice CP
+//Data: 24/03/2020
+
 Var
 
    M, A, IMC : real

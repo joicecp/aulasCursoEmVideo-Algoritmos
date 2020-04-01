@@ -1,22 +1,28 @@
-algoritmo "conteAteUsuario+1"
+algoritmo "conteAteUsuarioSalto"
 
-// Função : Contar até quanto o usuário solicitar, utilizando o comando ENQUANTO
-// Autor : Joice CP
+// Função :
+// Autor :
 // Data : 01/04/2020
-// Seção de Declarações 
+// Seção de Declarações
+
 var
-   valor, contador : inteiro
+
+   valor, salto, contador : inteiro
 
 inicio
+
       contador <- 0
       Escreva("Quer contar até quanto? ")
       Leia(valor)
       EscrevaL("")
+      Escreva("Qual será o valor do salto? ")
+      Leia(salto)
+      EscrevaL("")
       Enquanto (contador <= valor) faca
               EscrevaL(contador)
-              contador <- contador + 1 // aqui o contador recebe ele + 1
+              contador <- contador + salto // aqui o contador recebe ele + o salto
       FimEnquanto
       EscrevaL("")
       EscrevaL("Terminei de contar!!!")
-// Seção de Comandos 
+
 fimalgoritmo

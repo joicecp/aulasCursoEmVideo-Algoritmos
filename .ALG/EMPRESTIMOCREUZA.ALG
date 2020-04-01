@@ -1,9 +1,13 @@
 Algoritmo "emprestimoCreuza"
 
+//Função: Calcular empréstimo para a Creuza
+//Autor: Joice CP
+//Data: 24/03/2020
+
 Var
 
-emprestimoValor, valorComJuros, valorParcela  : real
-parcelas : inteiro
+   emprestimoValor, valorComJuros, valorParcela  : real
+   parcelas : inteiro
 
 Inicio
 

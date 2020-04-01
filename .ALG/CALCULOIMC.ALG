@@ -1,4 +1,8 @@
-Algoritmo "calculoIMC2"
+Algoritmo "calculoIMC"
+
+//Função: Calcular IMC geral utilizando estrutura de seleção 'Se'
+//Autor: Joice CP
+//Data: 24/03/2020
 
 Var
 

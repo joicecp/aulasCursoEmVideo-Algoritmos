@@ -1,5 +1,9 @@
 Algoritmo "AptoADirigir"
 
+//Função: Verificar se a pessoa pode dirigir utilizando a estrutura de seleção 'Se'
+//Autor: Joice CP
+//Data: 24/03/2020
+
 Var
 
    anoAtual, anoNasc, idade : inteiro

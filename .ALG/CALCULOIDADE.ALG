@@ -1,5 +1,9 @@
 Algoritmo "CalculoIdade"
 
+//Função: Calcular idade
+//Autor: Joice CP
+//Data: 24/03/2020
+
 Var
 
    ano, nasc, idade : inteiro

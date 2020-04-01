@@ -1,6 +1,8 @@
 algoritmo "criancaEsperanca"
-// Autor : Joice
-// Data : 24/03/2020
+
+//Função: Calcular doações Criança Esperança, utilizando estrutura de seleção 'Escolha Caso'
+//Autor: Joice CP
+//Data: 24/03/2020
 
 var
 

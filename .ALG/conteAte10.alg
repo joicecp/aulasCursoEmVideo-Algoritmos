@@ -1,4 +1,5 @@
 algoritmo "conteAte10"
+
 // Função : Contar até 10 utilizando o comando ENQUANTO
 // Autor : Joice CP
 // Data : 31/03/2020
@@ -14,6 +15,5 @@ inicio
       EscrevaL(contador)
       contador <- contador + 1
    FimEnquanto
-
 
 fimalgoritmo

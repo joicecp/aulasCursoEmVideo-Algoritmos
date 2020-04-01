@@ -1,6 +1,7 @@
 Algoritmo "MediaAluno2"
-// Algoritmos
-// Joice CP
+
+// Função: Calcular média do aluno
+// Autor: Joice CP
 // Descrição   : Calcula a média do aluno
 // Data atual  : 24/03/2020
 

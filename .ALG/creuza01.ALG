@@ -1,4 +1,8 @@
-Algoritmo "Creuza01CURSOEMVIDEO"
+Algoritmo "Creuza01"
+
+//Função: Verificar idade e saber quantos anos a Creuza gostaria de ter
+//Autor: Joice CP
+//Data: 24/03/2020
 
 Var
 

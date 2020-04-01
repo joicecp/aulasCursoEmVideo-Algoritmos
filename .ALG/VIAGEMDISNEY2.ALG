@@ -1,5 +1,8 @@
 Algoritmo "viagemDisney2"
-//Viagem para a disney, família ou ficar em casa
+
+//Função: Viagem para a disney, família ou ficar em casa
+//Autor: Joice CP
+//Data: 01/04/2020
 
 Var
 

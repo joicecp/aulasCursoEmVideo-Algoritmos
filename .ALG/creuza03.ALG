@@ -1,8 +1,12 @@
 Algoritmo "Creuza03"
 
+//Função: Identificar a temperatura em Fº e converter para Cº
+//Autor: Joice CP
+//Data: 24/03/2020
+
 Var
 
-F, C :real
+   F, C :real
 
 Inicio
 

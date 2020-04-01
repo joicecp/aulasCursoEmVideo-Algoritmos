@@ -1,8 +1,12 @@
 Algoritmo "EscolaJavaliCansado"
 
+//Função: Calcular média do Aluno, utilizando estrutura de Seleção 'Se'
+//Autor: Joice CP
+//Data: 24/03/2020
+
 Var
 
-primeiraNota, segundaNota, media : real
+   primeiraNota, segundaNota, media : real
 
 Inicio
 
