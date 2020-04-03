@@ -8,7 +8,6 @@ var
 
    numeroInicio, numeroFim, contador : inteiro
 
-
 inicio
 
    EscrevaL("")
@@ -47,5 +46,4 @@ inicio
 
    FimEnquanto
    
-
 fimalgoritmo
