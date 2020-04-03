@@ -27,7 +27,7 @@ inicio
                   maiorNumero <- valorDigitado //então, meu maior valor passa a ser o maior digitado
                FimSe
                
-               Se (menorNumero = 0) ou (valorDigitado < menorNumero) entao  //(contador = 1)
+               Se (menorNumero = 0) ou (valorDigitado < menorNumero) entao  //(contador = 1) | se o menorNumero for igual a 0 (entra no Se), como depois da primeira vez já não é mais 0, tem que fazer a outra verificação, se o valor digitador é menor que o 'menorValor'
                   menorNumero <- valorDigitado
                FimSe
                
