@@ -12,40 +12,40 @@ var
 inicio
 
    EscrevaL("")
-   EscrevaL("--------------------")
-   EscrevaL("CONTAGEM INTELIGENTE")
-   EscrevaL("--------------------")
+   EscrevaL("------------------------------------------")
+   EscrevaL(" C O N T A G E M    I N T E L I G E N T E")
+   EscrevaL("------------------------------------------")
    EscrevaL("")
-   Escreva("Digite qual número você quer que seja o INÍCIO da contagem: ")
+   EscrevaL("Digite qual número você quer que seja o INÍCIO da contagem")
+   EscrevaL("")
+   EscrevaL("Digite qual número você quer que seja o FIM da contagem")
+   EscrevaL("")
+   Escreva("Início: ")
    Leia(numeroInicio)
    EscrevaL("")
-   Escreva("Digite qual número você quer que seja o FIM da contagem: ")
+   Escreva("Fim: ")
    Leia(numeroFim)
    EscrevaL("")
-   EscrevaL("Início: ", numeroInicio)
+   EscrevaL("------------------")
+   EscrevaL(" C O N T A N D O")
+   EscrevaL("------------------")
    EscrevaL("")
-   EscrevaL("Fim: ", numeroFim)
-   EscrevaL("")
+   
    contador <- 1
    
-   Enquanto (contador <= numeroInicio) e (contador <= numeroFim) faca
+   Enquanto (contador >= numeroInicio) e (contador <= numeroFim) faca  //contagem do menor para o maior
 
-            EscrevaL("Veio aqui")
+            EscrevaL("...",contador)
             contador <- contador + 1
             
    FimEnquanto
    
-   
-   
-   
-   
-   
-   
-   
-   
-   
+      Enquanto (contador <= numeroInicio) e (contador >= numeroFim) faca //contagem do maior para o menor
 
+            EscrevaL("...",numeroInicio)
+            numeroInicio <- numeroInicio - 1
 
-
+   FimEnquanto
+   
 
 fimalgoritmo
