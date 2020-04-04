@@ -6,60 +6,42 @@ algoritmo "melhorAlunoTurma"
 
 var
 
-   turma : inteiro
-   nomeAluno : caractere
+   turma, contador : inteiro
+   nomeAluno, melhorAluno : caractere
    notaAluno, maiorNota : real
-
-
 
 inicio
 
+   EscrevaL("")
+   EscrevaL("---------------------")
+   EscrevaL("ESCOLA CURSO EM VÍDEO")
+   EscrevaL("---------------------")
+   EscrevaL("")
+   Escreva("Quantos alunos tem na sua turma? ")
+   Leia(turma)
+   EscrevaL("")
+
+   contador <- 1
+
+   Enquanto (contador <= turma) faca
+
       EscrevaL("")
-      EscrevaL("--------------")
-      EscrevaL("ESCOLA C3 TECH")
-      EscrevaL("--------------")
-      EscrevaL("")
-      Escreva("Quantos alunos tem na sua classe?: ")
-      Leia(turma)
-      EscrevaL("")
+      EscrevaL("ALUNO ", contador)
+      Escreva("Nome do aluno: ")
+      Leia (nomeAluno)
+      Escreva("Nota de ", nomeAluno, ": ")
+      Leia(notaAluno)
 
-                      EscrevaL("ALUNO 1")
-              Escreva("Nome do aluno: ")
-              Leia (nomeAluno)
-              Escreva("Nota de ", nomeAluno, ": ")
-              Leia(notaAluno)
-              EscrevaL("")
-              EscrevaL("ALUNO 2")
-              Escreva("Nome do aluno: ")
-              Leia (nomeAluno)
-              Escreva("Nota de ", nomeAluno, ": ")
-              Leia(notaAluno)
-              EscrevaL("")
-//      EscrevaL("ALUNO 3")
-//      Escreva("Nome do aluno: ")
-//      Leia (nomeAluno)
-//      Escreva("Nota de ", nomeAluno, ": ")
-//      Leia(notaAluno)
-//      EscrevaL("")
-//      EscrevaL("ALUNO 4")
-//      Escreva("Nome do aluno: ")
-//      Leia (nomeAluno)
-//      Escreva("Nota de ", nomeAluno, ": ")
-//      Leia(notaAluno)
+      contador <- contador + 1
       
+      Se (notaAluno > maiorNota) entao
+         maiorNota <- notaAluno
+         melhorAluno <- nomeAluno
+      FimSe
 
+   FimEnquanto
 
-
-              
-              Se (notaAluno >= maiorNota) entao
-                 maiorNota <- notaAluno
-              FimSe
-
-      
-      EscrevaL("")
-      EscrevaL("A maior nota foi: ", maiorNota, " do aluno: ", nomeAluno)
-      
-      
-      
+   EscrevaL("")
+   EscrevaL("A maior nota foi ", maiorNota:2:1, " do aluno ", melhorAluno)
 
 fimalgoritmo

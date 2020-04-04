@@ -21,7 +21,7 @@ inicio
 
                EscrevaL("")
                Escreva ("Digite o", contador, "o valor: ")
-               Leia(valorDigitado) //a cada vez que ler o valorDigitado, vou verificar ses
+               Leia(valorDigitado) //a cada vez que ler o valorDigitado, vou verificar se
                
                Se (valorDigitado > maiorNumero) entao //N for maior valor que está guardado
                   maiorNumero <- valorDigitado //então, meu maior valor passa a ser o maior digitado
