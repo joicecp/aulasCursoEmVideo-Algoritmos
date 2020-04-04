@@ -9,19 +9,37 @@ var
    Reais, Dolar, Euro, Yuan, Libra, BitCoin : real
    DolarConvertido, EuroConvertido, YuanConvertido, LibraConvertido, BitCoinConvertido : real
    conversoesDinheiro, Contador, moedaConversao : inteiro //Contador - usuário define quantas conversões serão realizadas
+   nome : caractere
 
 inicio
 
       Contador <- 1
       
       EscrevaL("")
-      Escreva("Quantas conversões você quer realizar? ")
+      EscrevaL("------------------------------------")
+      EscrevaL("************************************")
+      EscrevaL("")
+      EscrevaL("BEM VINDO AO CONVERSOR DE MOEDAS 2.0")
+      EscrevaL("")
+      EscrevaL("************************************")
+      EscrevaL("------------------------------------")
+      EscrevaL("")
+      Escreva("Qual seu nome? ")
+      Leia(nome)
+      EscrevaL("")
+      Escreva("Quantas conversões você deseja realizar ", nome, "? ")
       Leia(conversoesDinheiro)
 
       Enquanto (Contador <= conversoesDinheiro) faca
 
                EscrevaL("")
+               EscrevaL(" * RESPONDA A PERGUNTA A SEGUIR *")
+               EscrevaL("")
+               EscrevaL("-------------------------------------------------")
                EscrevaL("Para qual moeda você quer converter seu dinheiro?")
+               EscrevaL("")
+               EscrevaL("Moedas disponíveis para conversão listadas abaixo")
+               EscrevaL("-------------------------------------------------")
                EscrevaL("")
                EscrevaL("Digite [1] para Dólar Americano US$")
                EscrevaL("")
@@ -33,13 +51,11 @@ inicio
                EscrevaL("")
                Escreval("Digite [5] para Yuan Chinês ¥")
                EscrevaL("")
-               EscrevaL("  ----------------------------")
-               EscrevaL("  * * * AVISO IMPORTANTE * * *")
-               EscrevaL("  ----------------------------")
+               EscrevaL("  -----------------------------------------------------")
+               EscrevaL("  * * * AVISO IMPORTANTE: INFORME APENAS O NÚMERO * * *")
+               EscrevaL("  -----------------------------------------------------")
                EscrevaL("")
-               
-               EscrevaL("Digite apenas o NÚMERO")
-               Escreva("Digite aqui o número para identificar qual moeda: ")
+               Escreva("Digite aqui o número de identificação: ")
                Leia(moedaConversao)
                EscrevaL("")
                Escreva("Agora... Informe qual o valor em R$? R$")
@@ -53,9 +69,9 @@ inicio
                   DolarConvertido <- Reais / Dolar
                   EscrevaL("")
                   EscrevaL("")
-                  EscrevaL("---------------------------------------")
-                  EscrevaL("!!! CONVERSÃO REALIZADA COM SUCESSO !!!")
-                  EscrevaL("---------------------------------------")
+                  //EscrevaL("---------------------------------------")
+                  EscrevaL("*** CONVERSÃO REALIZADA COM SUCESSO ***")
+                  //EscrevaL("---------------------------------------")
                   EscrevaL("")
                   EscrevaL("------------------------------------------------------------")
                   EscrevaL("ATENÇÃO: O valor convertido para dólares é de U$$", DolarConvertido:5:2)
@@ -68,9 +84,9 @@ inicio
                   EuroConvertido <- Reais / Euro
                   EscrevaL("")
                   EscrevaL("")
-                  EscrevaL("---------------------------------------")
-                  EscrevaL("!!! CONVERSÃO REALIZADA COM SUCESSO !!!")
-                  EscrevaL("---------------------------------------")
+                  //EscrevaL("---------------------------------------")
+                  EscrevaL("*** CONVERSÃO REALIZADA COM SUCESSO ***")
+                  //EscrevaL("---------------------------------------")
                   EscrevaL("")
                   EscrevaL("------------------------------------------------------------")
                   EscrevaL("ATENÇÃO: O valor convertido para Euro é de €", EuroConvertido:5:2)
@@ -83,9 +99,9 @@ inicio
                   LibraConvertido <- Reais / Libra
                   EscrevaL("")
                   EscrevaL("")
-                  EscrevaL("---------------------------------------")
-                  EscrevaL("!!! CONVERSÃO REALIZADA COM SUCESSO !!!")
-                  EscrevaL("---------------------------------------")
+                  //EscrevaL("---------------------------------------")
+                  EscrevaL("*** CONVERSÃO REALIZADA COM SUCESSO ***")
+                  //EscrevaL("---------------------------------------")
                   EscrevaL("")
                   EscrevaL("------------------------------------------------------------")
                   EscrevaL("ATENÇÃO: O valor convertido para Libra é de £", LibraConvertido:5:2)
@@ -98,9 +114,9 @@ inicio
                   BitCoinConvertido <- Reais / BitCoin
                   EscrevaL("")
                   EscrevaL("")
-                  EscrevaL("---------------------------------------")
-                  EscrevaL("!!! CONVERSÃO REALIZADA COM SUCESSO !!!")
-                  EscrevaL("---------------------------------------")
+                  //EscrevaL("---------------------------------------")
+                  EscrevaL("*** CONVERSÃO REALIZADA COM SUCESSO ***")
+                  //EscrevaL("---------------------------------------")
                   EscrevaL("")
                   EscrevaL("------------------------------------------------------------")
                   EscrevaL("ATENÇÃO: O valor convertido para BitCoin é de: ", BitCoinConvertido:5:5, " bitcoins")
@@ -113,9 +129,9 @@ inicio
                   YuanConvertido <- Reais / Yuan
                   EscrevaL("")
                   EscrevaL("")
-                  EscrevaL("---------------------------------------")
-                  EscrevaL("!!! CONVERSÃO REALIZADA COM SUCESSO !!!")
-                  EscrevaL("---------------------------------------")
+                  //EscrevaL("---------------------------------------")
+                  EscrevaL("*** CONVERSÃO REALIZADA COM SUCESSO ***")
+                  //EscrevaL("---------------------------------------")
                   EscrevaL("")
                   EscrevaL("------------------------------------------------------------")
                   EscrevaL("ATENÇÃO: O valor convertido para Yuan Chinês é de ¥", YuanConvertido:5:2)
