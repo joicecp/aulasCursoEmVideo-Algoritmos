@@ -23,7 +23,7 @@ inicio
 
    contador <- 1
 
-   Enquanto (contador <= turma) faca
+   Enquanto (contador <= turma) faca //o contador inicia com 1, então enquanto ele for menor ou igual aos total da turma, vai repetir
 
       EscrevaL("")
       EscrevaL("ALUNO ", contador)
@@ -34,7 +34,7 @@ inicio
 
       contador <- contador + 1
       
-      Se (notaAluno > maiorNota) entao
+      Se (notaAluno > maiorNota) entao //se a nota do Aluno for maior que a variável maiorNota, maiorNota vai receber a nota e também o nome do aluno
          maiorNota <- notaAluno
          melhorAluno <- nomeAluno
       FimSe
