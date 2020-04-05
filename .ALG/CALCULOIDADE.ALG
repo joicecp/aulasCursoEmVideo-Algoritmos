@@ -1,6 +1,6 @@
 Algoritmo "CalculoIdade"
 
-//Função: Calcular idade
+//Função: Calcular idade, utilizando a estrutura de condição 1 - composta (se-senão)
 //Autor: Joice CP
 //Data: 24/03/2020
 
@@ -16,10 +16,11 @@ Inicio
       Leia(nasc)
       idade <- ano - nasc
       Escreva("Em", ano, " você terá", idade)
+
       Se (idade >=21) entao
-      Escreva(" e já terá atingindo a maioridade")
+         Escreva(" e já terá atingindo a maioridade")
       Senao
-      Escreva(" e você ainda é menor de idade")
+         Escreva(" e você ainda é menor de idade")
       Fimse
       
 Fimalgoritmo

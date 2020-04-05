@@ -1,6 +1,6 @@
 algoritmo "contagemInteligente"
 
-// Função : Contar até quanto o usuário quiser
+// Função : Contar até quanto o usuário quiser, utilizando a estrutura de repetição 1 (ENQUANTO)
 // Autor : Joice CP
 // Data : 03/04/2020
 

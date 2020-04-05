@@ -1,6 +1,6 @@
 Algoritmo "calculoIMC2"
 
-//Função: Calcular o IMC específico, utilizado a estrutura de seleção 'Se' dentro de 'Se'
+//Função: Calcular o IMC específico, utilizado a estrutura de condição 1 - aninhada ('Se' dentro de 'Se')
 //Autor: Joice CP
 //Data: 24/03/2020
 

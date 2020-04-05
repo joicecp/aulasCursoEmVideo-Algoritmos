@@ -1,6 +1,6 @@
 Algoritmo "ParOuImpar"
 
-//Função: Identificar e o número é par ou impar
+//Função: Identificar e o número é par ou impar, utilizando a estrutura de condição 1 - composta (se-senão)
 //Autor: Joice CP
 //Data: 24/03/2020
 

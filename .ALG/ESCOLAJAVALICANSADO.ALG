@@ -1,6 +1,6 @@
 Algoritmo "EscolaJavaliCansado"
 
-//Função: Calcular média do Aluno, utilizando estrutura de Seleção 'Se'
+//Função: Calcular média do Aluno, utilizando a estrutura de condição 1 - composta (se-senão)
 //Autor: Joice CP
 //Data: 24/03/2020
 

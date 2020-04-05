@@ -1,6 +1,6 @@
 Algoritmo "Creuza03"
 
-//Função: Identificar a temperatura em Fº e converter para Cº
+//Função: Identificar a temperatura em Fº e converter para Cº, utilizando comando simples (escreva-leia)
 //Autor: Joice CP
 //Data: 24/03/2020
 

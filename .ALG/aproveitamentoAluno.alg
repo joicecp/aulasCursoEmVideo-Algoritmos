@@ -1,6 +1,6 @@
 algoritmo "aproveitamentoAluno"
 
-// Função : Calcular a nota média e aproveitamento do Aluno
+// Função : Calcular a nota média e aproveitamento do Aluno, utilizando a estrutura de condição 1 aninhada(se-senão)e 2(Escolha-Caso)
 // Autor : Joice CP
 // Data : 25/03/2020
 

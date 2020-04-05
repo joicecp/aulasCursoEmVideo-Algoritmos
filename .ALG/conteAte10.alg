@@ -1,6 +1,6 @@
 algoritmo "conteAte10"
 
-// Função : Contar até 10 utilizando o comando ENQUANTO
+// Função : Contar até 10, utilizando a estrutura de repetição 1 - (ENQUANTO)
 // Autor : Joice CP
 // Data : 31/03/2020
 

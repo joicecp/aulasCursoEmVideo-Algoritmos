@@ -1,6 +1,6 @@
 Algoritmo "emprestimoCreuza"
 
-//Função: Calcular empréstimo para a Creuza
+//Função: Calcular empréstimo para a Creuza, utilizando comandos simples (esreva-leia)
 //Autor: Joice CP
 //Data: 24/03/2020
 

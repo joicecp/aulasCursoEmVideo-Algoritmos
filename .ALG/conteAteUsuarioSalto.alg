@@ -1,7 +1,7 @@
 algoritmo "conteAteUsuarioSalto"
 
-// Função :
-// Autor :
+// Função : Contar até quando o usuário definir, utilizando a estrutra de repetição 1 (ENQUANTO)
+// Autor : Joice CP
 // Data : 01/04/2020
 // Seção de Declarações
 

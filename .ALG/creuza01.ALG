@@ -1,6 +1,6 @@
 Algoritmo "Creuza01"
 
-//Função: Verificar idade e saber quantos anos a Creuza gostaria de ter
+//Função: Verificar idade e saber quantos anos a Creuza gostaria de ter, utilizado comando simples (escreva-leia)
 //Autor: Joice CP
 //Data: 24/03/2020
 

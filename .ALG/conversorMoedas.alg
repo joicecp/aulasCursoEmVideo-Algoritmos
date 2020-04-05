@@ -1,6 +1,6 @@
 algoritmo "conversorMoedas"
 
-// Função : Conversor de Moedas, de dólar para real
+// Função : Conversor de Moedas, de dólar para real, utilizando a estrutura de repetição 1 (ENQUANTO)
 // Autor : Joice
 // Data : 03/04/2020
 

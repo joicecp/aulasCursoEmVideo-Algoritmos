@@ -1,6 +1,6 @@
 algoritmo "FuncionarioDependentes"
 
-//Função: Identificando o número de dependentes para adicionar um aumento, utilizando a estrutura de seleção 'Escolha Caso'
+//Função: Identificando o número de dependentes para adicionar um aumento, utilizando a estrutura de condição 2 (Escolha Caso)
 // Autor : Joice
 // Data : 24/03/2020
 

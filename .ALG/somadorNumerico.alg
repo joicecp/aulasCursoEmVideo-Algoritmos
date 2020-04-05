@@ -1,6 +1,6 @@
 algoritmo "somadorNumerico"
 
-// Função : Contar dentro do laço
+// Função : Contar dentro do laço, utilizando a estrutura de repetição 1 (ENQUANTO)
 // Autor : Joice CP
 // Data : 01/04/2020
 

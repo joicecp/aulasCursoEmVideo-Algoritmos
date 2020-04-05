@@ -1,6 +1,6 @@
 Algoritmo "calculoIMC"
 
-//Função: Calcular IMC geral utilizando estrutura de seleção 'Se'
+//Função: Calcular IMC geral, utilizando a estrutura de condição 1 - composta (se-senão)
 //Autor: Joice CP
 //Data: 24/03/2020
 

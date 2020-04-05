@@ -1,6 +1,6 @@
 algoritmo "criancaEsperanca"
 
-//Função: Calcular doações Criança Esperança, utilizando estrutura de seleção 'Escolha Caso'
+//Função: Calcular doações Criança Esperança, utilizando estrutura de condição 2 (Escolha Caso)
 //Autor: Joice CP
 //Data: 24/03/2020
 

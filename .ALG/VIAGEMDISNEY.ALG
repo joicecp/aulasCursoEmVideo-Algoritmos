@@ -1,6 +1,6 @@
 Algoritmo "viagemDisney"
 
-// Função: Verificar disponibilidade financeira para ir a Disney
+// Função: Verificar disponibilidade financeira para ir a Disney, utilizando a estrutura de condição 1 - composta (se-senão)
 // Autor: Joice CP
 // Data: 24/03/2020
 Var

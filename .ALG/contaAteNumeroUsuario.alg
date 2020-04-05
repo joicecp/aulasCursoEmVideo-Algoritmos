@@ -1,6 +1,6 @@
 algoritmo "conteAteUsuario+1"
 
-// Função : Contar até quanto o usuário solicitar, utilizando o comando ENQUANTO
+// Função : Contar até quanto o usuário solicitar, utilizando a estrutura de repetição 1 (ENQUANTO)
 // Autor : Joice CP
 // Data : 01/04/2020
 // Seção de Declarações 

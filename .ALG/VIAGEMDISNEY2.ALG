@@ -1,6 +1,6 @@
 Algoritmo "viagemDisney2"
 
-//Função: Viagem para a disney, família ou ficar em casa
+//Função: Viagem para a disney, família ou ficar em casa, utilizando a estrutura de condição 1 - composta(se-senão)
 //Autor: Joice CP
 //Data: 01/04/2020
 

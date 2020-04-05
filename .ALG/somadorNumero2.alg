@@ -1,6 +1,6 @@
 algoritmo "somadorNumero2"
 
-// Função : Adicional - mostrar maior e menor valor digitado
+// Função : Adicional - mostrar maior e menor valor digitado, utilizando a estrutura de repetição 1 (ENQUANTO) e estrutura de condição 1 - simples (se)
 // Autor : Joice CP
 // Data : 02/04/2020
 

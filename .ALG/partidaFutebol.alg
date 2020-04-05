@@ -1,6 +1,6 @@
 algoritmo "partidaFutebol"
 
-// Função : Diferença de gols
+// Função : Diferença de gols, utilizando a estrutura de condição 2 (Escolha-caso)
 // Autor : Joice CP
 // Data : 25/03/2020
 

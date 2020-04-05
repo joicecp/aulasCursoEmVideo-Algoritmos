@@ -1,6 +1,6 @@
 algoritmo "conversorMoedas2"
 
-// Função : Conversor de Moedas, Dólar, Euro, Yuan, Libra e BitCoin
+// Função : Conversor de Moedas, Dólar, Euro, Yuan, Libra e BitCoin, utilizando a estrutura de repetição 1 (ENQUANTO) e a estrutura de condição 2 (Escolha-Caso)
 // Autor : Joice
 // Data : 03/04/2020
 

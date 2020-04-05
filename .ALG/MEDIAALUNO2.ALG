@@ -1,6 +1,6 @@
 Algoritmo "MediaAluno2"
 
-// Função: Calcular média do aluno
+// Função: Calcular média do aluno utilizando a estrutura de condição 1 - composta (se-senão)
 // Autor: Joice CP
 // Descrição   : Calcula a média do aluno
 // Data atual  : 24/03/2020

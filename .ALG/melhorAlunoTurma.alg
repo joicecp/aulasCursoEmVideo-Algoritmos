@@ -1,6 +1,6 @@
 algoritmo "melhorAlunoTurma"
 
-// Função : Verificar qual é o melhor aluno da turma
+// Função : Verificar qual é o melhor aluno da turma, utilizando a estrutura de repetição 1 (ENQUANTO) e estrutura de condição 1 - simples (se)
 // Autor : Joice CP
 // Data : 03/04/2020
 
