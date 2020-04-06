@@ -24,11 +24,9 @@ inicio
      Escreva("Digite o", contador, ".o valor: ")
      Leia(valorDigitado)
      
-     Se (somaTodosValores >= 0) entao //verifica se o a soma é igual a zero
-        somaTodosValores <- somaTodosValores + valorDigitado
-     FimSe
+     somaTodosValores <- somaTodosValores + valordigitado //a soma de todos os valores não precisa ter uma condição
 
-     Se (valorDigitado / 5 = 0) entao //verifica se é divisível por 5
+     Se (valorDigitado % 5 = 0) entao //verifica se é divisível por 5
         diviCinco <- diviCinco + 1
      FimSe
      
@@ -37,19 +35,19 @@ inicio
      FimSe
 
      Se (valorDigitado % 2 = 1) entao //verifica se é ímpar
-        totImpar <- totImpar + valorDigitado
+        totImpar <- totImpar + 1 //soma os inteiros
      FimSe
      
-     Se (valorDigitado % 2 = 1) entao
-        somaImpar <- somaImpar + 1
+     Se (valorDigitado % 2 = 1) entao //verifica se é par
+        somaImpar <- somaImpar + valorDigitado  //a soma de todos os ímpares
      FimSe
      
      Se (valorDigitado % 2 = 0) entao //verifica se é par
-        totPar <- totPar + valorDigitado
+        somaPar <- somaPar + valorDigitado //a soma de todos os pares
      FimSe
      
-     Se (valorDigitado % 2 = 0) entao
-        totImpar <- totImpar + 1
+     Se (valorDigitado % 2 = 0) entao //verifica se é par
+        totPar <- totPar + 1  //soma os inteiros
      FimSe
 
    FimPara
@@ -87,13 +85,13 @@ inicio
      EscrevaL("SOMA PARES")
      EscrevaL("----------")
      EscrevaL("")
-     EscrevaL("O número total de pares digitados é de: ", totPar, " e sua soma é: ", somaPar)
+     EscrevaL("O número total de pares digitados é", totPar, " e sua soma é", somaPar)
      EscrevaL("")
      EscrevaL("------------")
      EscrevaL("SOMA ÍMPARES")
      EscrevaL("------------")
      EscrevaL("")
-     EscrevaL("O número total de pares digitados é de: ", totImpar ," e sua soma é: ", somaImpar)
+     EscrevaL("O número total de ímpares digitados é", totImpar ," e sua soma é", somaImpar)
 
 
 fimalgoritmo
