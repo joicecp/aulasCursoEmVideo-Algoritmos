@@ -18,13 +18,13 @@ inicio
 
        contadorProc <- A + B
 
-       Escreva("...",contadorProc)
+       EscrevaL("...",contadorProc)
 
        A <- B
 
        B <- contadorProc
        
-       Retorne (contadorProc)
+       Retorne (contadorProc) //é o que retorna, que joga pro fibo3
 
 
 FimFuncao
@@ -42,8 +42,9 @@ inicio
 
    Para contador <- 3 ate repeticao faca
 
-      fibo3 <- ProximoFibo(fibo, fibo2) //chamada da função
-
+      fibo3 <- ProximoFibo(fibo, fibo2) //chamada da função, o que retorna na função, tá jogando pro fibo3, que é o mesmo que está escrevendo na tela, na função
+      //EscrevaL(fibo3) - como já tem o escreva na função, não há necessidade
+      
    FimPara
 
 fimalgoritmo
