@@ -11,10 +11,10 @@ var
 
 inicio
 
-     Para indice <- 1 ate 4 faca //a condição final do para tem que ser de acordo com a quantidade máxima de vetores, no caso aqui, até 7
+     Para indice <- 1 ate 4 faca //a condição final do para tem que ser de acordo com a quantidade máxima de vetores, no caso aqui, até 4
 
         Escreva("Digite o ", indice, ".o valor: ")
-        Leia(valor[indice])//é a variável do vetor, o índice indica quantos lugares ela vai guardar, no caso são 7
+        Leia(valor[indice])//é a variável do vetor, o índice indica quantos lugares ela vai guardar, no caso são 4
 
 
          //mostra individualmente se o número digitado é par ou ímpar
