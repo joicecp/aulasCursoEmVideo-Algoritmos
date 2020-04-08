@@ -1,12 +1,12 @@
 algoritmo "vetores"
 
-// Função :
-// Autor :
+// Função : exemplo de vetores
+// Autor : Joice
 // Data : 08/04/2020
 
 var
 
-   v : vetor[1..20] de inteiro
+   v : vetor[1..20] de inteiro  //posso guardar vários valores, dentro de uma mesma variável
    contador, valorQuantidade : inteiro
    repetir : caractere
    
