@@ -1,4 +1,4 @@
-algoritmo "listagemTurmaVetor2"
+algoritmo "listagemTurmaVetor3"
 
 // Função :
 // Autor :
@@ -10,7 +10,8 @@ var
    n1 : vetor[1..2] de real //vetor para guardar a primeira nota dos alunos
    n2 : vetor[1..2] de real //vetor para guardar a segunda nota dos alunos
    media : vetor[1..2] de real //vetor pra média
-   indice : inteiro  //contador
+   indice, total : inteiro  //contador
+   somaMedia, turmaMedia : real
 
 inicio
 
@@ -30,8 +31,12 @@ inicio
 
       media[indice] <- (n1[indice] + n2[indice]) / 2
 
+      somaMedia <- somaMedia + media[indice]
+
    FimPara
-   
+
+   turmaMedia <- somaMedia / 2
+
    LimpaTela
 
    EscrevaL("")
@@ -41,28 +46,20 @@ inicio
    EscrevaL("=*=*=*=*=*=*=*=*=*=*=*=*=*=")
    EscrevaL("")
 
-   
+
    Para indice <- 1 ate 2 faca
 
-      Se (nome[indice] =  verdadeiro) entao
-         EscrevaL("")
-         EscrevaL("Aluno ", nome[indice]:15, " média", media[indice])
-      FimSe
-      
-      Se (nome[indice] = falso) entao
-         EscrevaL("Aluno não cadastrado")
-      FimSe
-      
-      Se (n1[indice] = 0) e (n2[indice] = 0) entao
-         EscrevaL("Não há notas")
-      FimSe
-      
-      Se (media[indice] = 0) entao
-         EscrevaL("")
+      EscrevaL("")
+      EscrevaL("Aluno ", nome[indice]:15, " média", media[indice])
+
+      Se (media[indice] > turmaMedia) entao
+         total <- total + 1
       FimSe
 
    FimPara
-   
+
+   EscrevaL("Temos um total de", total, " alunos acima da média, e a média é total de alunos é:", turmaMedia:4:1)
+
    EscrevaL("")
    EscrevaL("FIM DA LISTAGEM!")
 
