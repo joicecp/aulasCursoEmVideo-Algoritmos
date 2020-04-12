@@ -6,8 +6,8 @@ algoritmo "timeDeFutebolVetor"
 
 var
 
-   timeFutebol : vetor[1..4] de caractere
-   indice : inteiro
+   time : vetor[1..3] de caractere
+   partida, posicao  : inteiro
    
 
 inicio
@@ -16,12 +16,13 @@ inicio
    EscrevaL("---------------------")
    EscrevaL("CAMPEONATO DE FUTEBOL")
    EscrevaL("---------------------")
-   EscrevaL("")
 
-   Para indice <- 1 ate 4 faca
+   Para posicao <- 1 ate 3 faca
+
       EscrevaL("")
-      Escreva("Nome do", indice,".o time: ")
-      Leia(timeFutebol[indice])
+      Escreva("Nome do", posicao,".o time: ")
+      Leia(time[posicao])
+
    FimPara
 
    LimpaTela
@@ -31,11 +32,16 @@ inicio
    EscrevaL("TABELA DE PARTIDAS")
    EscrevaL("------------------")
    
-   Para indice <- 1 ate 3 faca
-   
-   
+   Para partida <- 1 ate 3 faca  //volta pra esse PARA depois que finalizar o que está no bloco... a variável partida vai receber 1, executa bloco, 2 executa bloco, 3 executa bloco e assim por diante
 
-   
-   EscrevaL(timeFutebol)
+      Para posicao <- 1 ate 3 faca //volta para o PARA 'pai' quando finalizar o bloco, a variável posicao, recebe 1 até 3 e vai executando os blocos... recebe 1 executa, recebe 2 executa....
+
+         Se (partida <> posicao) entao  //quando o time[partida] e o time[posicao] forem iguais, ele não executa o bloco, pra não repetir os nomes
+            EscrevaL(time[partida]:12, " [ ] x [ ] ", time[posicao]:12) //12 é o tanto de caracteres que será mostrado na tela
+         FimSe
+
+      FimPara
+
+   FimPara
 
 fimalgoritmo
