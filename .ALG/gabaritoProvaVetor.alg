@@ -6,8 +6,8 @@ algoritmo "gabaritoProvaVetor"
 
 var
 
-   questao : vetor[1..5] de caractere  //vetor para o gabarito
-   questaoResp : vetor[1..5] de caractere  //vetor para as respostas
+   questao : vetor[1..5] de caractere  //vetor para o gabarito, tem que ser letra minúscula
+   questaoResp : vetor[1..5] de caractere  //vetor para as respostas, tem que ser letra minúscula
    nome : vetor[1..2] de caractere //vetor para o nome dos alunos
    notaAluno : vetor[1..2] de real //vetor para a nota dos alunos
    quantosCadastro, quantosAlunos : inteiro //variável para deixar dinâmico
