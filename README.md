@@ -5,4 +5,4 @@ Material desenvolvido durante as aulas, e estou organizando aqui em um repositó
 
 ## Curso de Algoritmos
 
-Em desenvolvimento...
+Curso finalizado.
